@@ -4,9 +4,10 @@ It's a VBA subroutine that will iterate through a set of files to bring in data 
 # Data Structure
 Each file in the 'test folder' has the temperature, pH and dO<sup>2</sup> concentration. 
 
-# Result
-When the user click the 'Import Data' button, a multiple of files in the 'test' folder can be selected to import, and then an example file will be open. After that, the user can select a column range that they want to summarise, without the header - for example, "$B$3:$B$6". The summary folder will automatically collect the data in the selected files and analyse them by showing the summarised data in the 'Data' sheet. The 'Reset' button will delete all the data in the sheet.
+# Instruction
+When the user click the 'Import Data' button, a multiple of files in the 'test' folder can be selected to import, and then an example file will be open. After that, the user can select a column range that they want to summarise, without the header - for example, "$B$3:$B$6". The summary folder will automatically collect and analyse data in the those files. The 'Reset' button will delete all the data in the sheet.
 
+# Codes
 ```VB
 Option Explicit
 Option Base 1
