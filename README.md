@@ -12,7 +12,6 @@ Option Explicit
 Option Base 1
 
 Sub RalphieReactor()
-'Place your code here
 Dim FileNames As Variant, nw As Integer
 Dim ImportRange As String, UserRange As Range
 Dim aWB As Workbook, tWB As Workbook
