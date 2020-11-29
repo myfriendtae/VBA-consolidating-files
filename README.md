@@ -1,11 +1,9 @@
 # Consolidating csv. Files with VBA
-It's a VBA subroutine that will iterate through a set of files to bring in data from those files into a central spreadsheet.
+VBA programme that iteratse through a set of files to load files in a folder, and collect/manipulate data, and save in a central spreadsheet. When a user clicks the 'Import Data' button, a multiple of files in the 'test' folder are imported, and then an example file will be open. After that, the user can select a column range that they want to summarise. The range must be selected without the header - for example, "$B$3:$B$6" in the screenshot below. The 'Reset' button will delete all the data in the sheet.
+
 
 ## Data Structure
 Each file in the 'test folder' has the temperature, pH and dO<sup>2</sup> concentration. 
-
-## Introduction
-When the user click the 'Import Data' button, a multiple of files in the 'test' folder can be selected to import, and then an example file will be open. After that, the user can select a column range that they want to summarise. Please select the range without the header - for example, "$B$3:$B$6". The summary folder will automatically collect and analyse data in the those files. The 'Reset' button will delete all the data in the sheet.
 
 ![screenshot](https://github.com/myfriendtae/VBA_consolidating_files/blob/master/screenshot.png?raw=true)
 
