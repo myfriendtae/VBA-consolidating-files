@@ -1,5 +1,5 @@
 # Consolidating csv. Files with VBA
-VBA programme that iterates through a set of files to sumarise date from the files in the 'test' folder, and collect/manipulate data, and save in a central spreadsheet. When a user clicks the 'Import Data' button, a multiple of files in the 'test' folder are imported, and then an example file will be open. After that, the user can select a column range that they want to summarise. The range must be selected without the header - for example, "$B$3:$B$6" in the screenshot below. The 'Reset' button will delete all the data in the sheet.
+VBA programme that iterates through a set of files to sumarise date from the files in the 'Ralphie Reactor' folder, and collect/manipulate data, and save in a central spreadsheet. When a user clicks the 'Import Data' button, a multiple of files in the 'test' folder are imported, and then an example file will be open. After that, the user can select a column range that they want to summarise. The range must be selected without the header - for example, "$B$3:$B$6" in the screenshot below. The 'Reset' button will delete all the data in the sheet.
 
 
 ## Data Structure
